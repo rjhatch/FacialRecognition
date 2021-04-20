@@ -2,9 +2,9 @@ import http.client, json
 from PIL import Image, ImageDraw
 import sys, os
 
-KEY = "d91945b6491a4409ad7cb5bb21a496e3"
+KEY = ""
 
-ENDPOINT = "https://uatface.cognitiveservices.azure.com/"
+ENDPOINT = ""
 
 request_url = "https://centralus.api.cognitive.microsoft.com/face/v1.0/detect?returnFaceAttributes=emotion"
 
